@@ -1,0 +1,87 @@
+/* Stylesheet for profileCard.html */
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+}
+
+#background {
+    position: relative;
+}
+.topImg {
+    position: relative;
+    margin-bottom: -20em;
+    margin-left: -15em;
+}
+.botImg {
+    position: absolute;
+    margin-left: -1em;
+    margin-top: 51em;
+}
+
+#card {
+    width: 350px;
+    position: absolute;
+    padding-left: 40%;
+    padding-bottom: 70%;
+}
+.cardImg {
+    position: relative;
+    margin-left: 40.45%;
+    width: 350px;
+    margin-bottom: -59px;
+    border-radius: 15px 15px 0px 0px;
+}
+.victor {
+    border: white;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 33%;
+}
+
+.main{
+    background-color: white;
+    border-bottom: hsl(0, 0%, 59%);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    text-align: center;
+    padding-top: 75px;
+    margin-top: -55px;
+}
+.name {
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    display: inline; 
+    margin-right: 8px;
+}
+.age {
+    color: hsl(0, 0%, 59%);
+    font-size: 18px;
+    display: inline;
+}
+.city {
+    color: hsl(0, 0%, 59%);
+    padding-bottom: 10px;
+}
+
+.stats {
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;;
+}
+.stats table{
+    text-align: center;
+    padding: 15px 0px 15px 12%;
+}
+.stats th {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    padding-right: 40px;
+}
+.stats td{
+    color: hsl(0, 0%, 59%);
+    padding-right: 40px;
+}
